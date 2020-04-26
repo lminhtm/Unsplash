@@ -1,5 +1,5 @@
 # Unsplash
-Demo app for Unsplash, written in Swift.
+Demo app for Unsplash (https://unsplash.com/developers), written in Swift.
 
 | | |
 | :---: | :---: | 
