@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - CHTCollectionViewWaterfallLayout (0.9.8):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.8)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.8)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - ObjectMapper (3.5.2)
+  - TYPagerController (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - CHTCollectionViewWaterfallLayout
+  - Kingfisher
+  - TYPagerController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CHTCollectionViewWaterfallLayout
+    - Kingfisher
+    - ObjectMapper
+    - TYPagerController
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+
+PODFILE CHECKSUM: 25b13506163042283c301bc202545ef838761ca8
+
+COCOAPODS: 1.8.4
