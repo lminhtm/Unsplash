@@ -37,7 +37,7 @@ class PhotoCollectionView: UICollectionView {
     
     weak var photoDelegate: PhotoCollectionViewDelegate?
     
-    private let itemPerRows: CGFloat = 2
+    private let itemPerRows: CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? 4 : 2
     private let sectionInsets = UIEdgeInsets(top: 0.0, left: 20.0, bottom: 20.0, right: 20.0)
     
     // MARK: - View Lifecycle

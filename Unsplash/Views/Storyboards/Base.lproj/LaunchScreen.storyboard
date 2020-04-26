@@ -16,16 +16,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unsplash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMA-Rp-1wE">
-                                <rect key="frame" x="119" y="295.5" width="137" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <rect key="frame" x="108" y="292.5" width="159" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2020 LMinh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nrg-05-b75">
+                                <rect key="frame" x="20" y="626" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nrg-05-b75" secondAttribute="trailing" constant="20" id="3dT-Fl-Bdk"/>
                             <constraint firstItem="XMA-Rp-1wE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-20" id="3zz-0z-ntx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nrg-05-b75" secondAttribute="bottom" constant="20" id="AQK-FC-cjy"/>
                             <constraint firstItem="XMA-Rp-1wE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="b8X-qz-L1i"/>
+                            <constraint firstItem="Nrg-05-b75" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gpQ-1W-Kod"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

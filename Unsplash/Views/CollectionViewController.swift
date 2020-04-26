@@ -53,8 +53,8 @@ class CollectionViewController: TYTabPagerController {
         self.tabBar.layout.cellSpacing = 0
         self.tabBar.layout.cellEdging = 0
         self.tabBarHeight = 50
-        let topInset = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets.top ?? 0
-        self.tabBarOrignY = 45 + topInset
+        let insets = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets ?? UIEdgeInsets.zero
+        self.tabBarOrignY = 45 + insets.top
         self.pagerController.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
         self.pagerController.view.backgroundColor = .clear
         self.view.backgroundColor = .systemBackground
